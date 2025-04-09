@@ -1,41 +1,47 @@
-// // pages/api/contact.ts
-// import { NextApiRequest, NextApiResponse } from 'next';
-// import nodemailer from 'nodemailer';
+// pages/api/contact.js
+import nodemailer from "nodemailer";
 
-// export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-//   if (req.method !== 'POST') {
-//     return res.status(405).json({ message: 'Method not allowed' });
-//   }
+export default async function handler(req, res) {
+  if (req.method !== "POST") {
+    return res.status(405).json({ message: "Method Not Allowed" });
+  }
 
-//   const { name, email, message } = req.body;
+  const { name, email, message } = req.body;
 
-//   if (!name || !email || !message) {
-//     return res.status(400).json({ message: 'Missing required fields' });
-//   }
+  if (!name || !email || !message) {
+    return res.status(400).json({ message: "Missing required fields" });
+  }
 
-//   try {
-//     const transporter = nodemailer.createTransport({
-//       service: 'gmail',
-//       auth: {
-//         user: process.env.NEXT_PUBLIC_EMAIL_USER, // your Gmail
-//         pass: process.env.NEXT_PUBLIC_EMAIL_PASS, // app-specific password
-//       },
-//     });
+  try {
+    console.log("ENV EMAIL_USER:", process.env.NEXT_PUBLIC_EMAIL_USER);
+    console.log("ENV EMAIL_PASS exists?", !!process.env.NEXT_PUBLIC_EMAIL_PASS);
 
-//     await transporter.sendMail({
-//       from: email,
-//       to: process.env.EMAIL_USER,
-//       subject: `New Collab Request from ${name}`,
-//       html: `
-//         <p><strong>Name:</strong> ${name}</p>
-//         <p><strong>Email:</strong> ${email}</p>
-//         <p><strong>Message:</strong><br>${message}</p>
-//       `,
-//     });
+    const transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: {
+        user: process.env.NEXT_PUBLIC_EMAIL_USER,
+        pass: process.env.NEXT_PUBLIC_EMAIL_PASS,
+      },
+    });
 
-//     return res.status(200).json({ message: 'Email sent successfully' });
-//   } catch (error) {
-//     console.error(error);
-//     return res.status(500).json({ message: 'Error sending email' });
-//   }
-// }
+    const mailOptions = {
+      from: email,
+      to: process.env.NEXT_PUBLIC_EMAIL_USER,
+      subject: `New Contact Message from ${name}`,
+      text: message,
+      html: `
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Message:</strong><br/>${message}</p>
+      `,
+    };
+
+    const info = await transporter.sendMail(mailOptions);
+    console.log("Email sent successfully:", info.response);
+
+    return res.status(200).json({ message: "Message sent successfully!" });
+  } catch (err) {
+    console.error("Nodemailer Error:", err);  // 🔥 This line is key
+    return res.status(500).json({ message: "Internal server error" });
+  }
+}

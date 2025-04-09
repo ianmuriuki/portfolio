@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
-
+import Image from "next/image";
+import ContactForm from "/components/ContactForm";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
@@ -43,7 +44,9 @@ export default function Index() {
         <img
           className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
           src="/img/pattern_nextjs.png"
-          alt="..."
+          alt="hero blob"
+          width={500}
+          height={300}
         />
       </section>
 
@@ -588,64 +591,7 @@ export default function Index() {
           <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
             <div className="w-full lg:w-6/12 px-4">
               <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200">
-                <form
-                  // method="POST"
-                  // action="/api/contact"
-                  className="flex-auto p-5 lg:p-10"
-                >
-                  <h4 className="text-2xl font-semibold">
-                    Want us to Collaborate?
-                  </h4>
-                  <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
-                    Fill this form and I’ll respond within 24 hours.
-                  </p>
-                  <div className="relative w-full mb-3 mt-8">
-                    <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2">
-                      Full Name
-                    </label>
-                    <input
-                      type="text"
-                      name="name"
-                      required
-                      className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                      placeholder="Full Name"
-                    />
-                  </div>
-
-                  <div className="relative w-full mb-3">
-                    <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2">
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      name="email"
-                      required
-                      className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                      placeholder="Email"
-                    />
-                  </div>
-
-                  <div className="relative w-full mb-3">
-                    <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2">
-                      Message
-                    </label>
-                    <textarea
-                      name="message"
-                      rows="4"
-                      required
-                      className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="Type a message..."
-                    />
-                  </div>
-                  <div className="text-center mt-6">
-                    <button
-                      type="submit"
-                      className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    >
-                      Send Message
-                    </button>
-                  </div>
-                </form>
+               <ContactForm />
               </div>
             </div>
           </div>
