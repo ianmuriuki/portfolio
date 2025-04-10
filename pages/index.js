@@ -23,7 +23,7 @@ export default function Index() {
               </p>
               <div className="mt-12">
                 <a
-                  href="https://www.linkedin.com/ianmuriuki-"
+                  href="https://www.linkedin.com/in/ian-muriuki-2387992b9"
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
