@@ -30,7 +30,7 @@ export default function Footer() {
               <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
                 Find me on any of these platforms, I will respond within 24 hours.
               </h5>
-              <div className="mt-6 lg:mb-0 mb-6 flex">
+              <div className="mt-6 lg:mb-0 mb-6 flex justify-center lg:justify-start">
                 <a href="https://twitter.com/@inc_codes" target="_blank" rel="noopener noreferrer">
                   <button
                     className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
