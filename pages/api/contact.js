@@ -13,20 +13,20 @@ export default async function handler(req, res) {
   }
 
   try {
-    console.log("ENV EMAIL_USER:", process.env.NEXT_PUBLIC_EMAIL_USER);
-    console.log("ENV EMAIL_PASS exists?", !!process.env.NEXT_PUBLIC_EMAIL_PASS);
+    console.log("ENV EMAIL_USER:", process.env.EMAIL_USER);
+    console.log("ENV EMAIL_PASS exists?", !!process.env.EMAIL_PASS);
 
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: process.env.NEXT_PUBLIC_EMAIL_USER,
-        pass: process.env.NEXT_PUBLIC_EMAIL_PASS,
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
       },
     });
 
     const mailOptions = {
       from: email,
-      to: process.env.NEXT_PUBLIC_EMAIL_USER,
+      to: process.env.EMAIL_USER,
       subject: `New Contact Message from ${name}`,
       text: message,
       html: `
