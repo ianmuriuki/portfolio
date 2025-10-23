@@ -108,7 +108,7 @@ export default function Footer() {
                 </div>
                 <div className="w-full lg:w-4/12 px-4">
                   <span className="block uppercase text-blueGray-500 text-lg font-semibold mb-2">
-                    Other Resources
+                    Others
                   </span>
                   <ul className="list-unstyled">
                     <li>
@@ -130,9 +130,9 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/"
+                        href="+254795953801"
                       >
-                        Contact Us
+                        Contacts
                       </a>
                     </li>
                   </ul>

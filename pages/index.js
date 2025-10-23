@@ -12,10 +12,10 @@ export default function Index() {
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
-              <h2 className="font-semibold text-4xl text-blueGray-600">
-                Hey There 👋 - Welcome to my Portfolio !!.
+              <h2 className="font-semibold text-4xl text-blueGray-700">
+                HELLO ~  Welcome to my Portfolio
               </h2>
-              <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+              <p className="mt-4 text-xl leading-relaxed text-blueGray-500">
                 I'm Iann, a passionate developer and cybersecurity enthuasist,
                 dedicated to building secure, innovative solutions that make a
                 real impact. -Yeah a tech lover who codes, hacks(ethically), and
@@ -25,7 +25,7 @@ export default function Index() {
                 <a
                   href="https://www.linkedin.com/in/ian-muriuki-2387992b9"
                   target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   View my linkedin
                 </a>
@@ -72,11 +72,13 @@ export default function Index() {
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
+            
               {/* Section Title */}
               <div className="text-center mb-6">
-                <h2 className="text-3xl font-semibold text-blueGray-700">
+                <h2 className="text-4xl font-semibold text-blueGray-700">
                   About Me
                 </h2>
+
               </div>
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
                 <img
@@ -96,15 +98,17 @@ export default function Index() {
                       className="text-blueGray-700 fill-current"
                     ></polygon>
                   </svg>
-                  <h4 className="text-xl font-bold text-white">
-                    Meet Me - Your Go-To Friendly Developer.
+
+                  <h4 className="text-xl font-bold text-blueGray">
+                    0xIann ~ Your Go-To Developer
                   </h4>
-                  <p className="text-md font-light mt-2 text-white">
+                  <p className="text-md font-light mt-2 text-blueGray">
                     I'm the kind of dev who loves clean APIs, secure systems,
                     and midnight debugging. Backend is my playground, servers
                     are my canvas, and I occasionally flirt with AI just to keep
                     things spicy.
                   </p>
+
                 </blockquote>
               </div>
             </div>
@@ -590,7 +594,7 @@ export default function Index() {
           <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
             <div className="w-full lg:w-6/12 px-4">
               <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200">
-               <ContactForm />
+                <ContactForm />
               </div>
             </div>
           </div>
