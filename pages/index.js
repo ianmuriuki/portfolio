@@ -13,7 +13,7 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-blueGray-700">
-                HELLO ~  Welcome to my Portfolio
+                HELLO -  Welcome to my Portfolio
               </h2>
               <p className="mt-4 text-xl leading-relaxed text-blueGray-500">
                 I'm Iann, a passionate developer and cybersecurity enthuasist,
@@ -100,7 +100,7 @@ export default function Index() {
                   </svg>
 
                   <h4 className="text-xl font-bold text-blueGray">
-                    0xIann ~ Your Go-To Developer
+                    0xIann - Your Go-To Developer
                   </h4>
                   <p className="text-md font-light mt-2 text-blueGray">
                     I'm the kind of dev who loves clean APIs, secure systems,
@@ -201,8 +201,8 @@ export default function Index() {
                 </div>
                 <h3 className="text-3xl font-semibold">Education</h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  I'm currently pursuing a degree in Information Technology at
-                  Technical University of Mombasa, where I'm actively involved
+                  I Pursued a degree in Information Technology at
+                  Technical University of Mombasa, where I was actively involved
                   in tech communities and leadership roles that complement my
                   academic journey.
                 </p>
@@ -219,7 +219,7 @@ export default function Index() {
                           BSc in Information Technology
                         </h4>
                         <p className="text-blueGray-400 text-sm">
-                          Technical Univeristy of Mombasa, 2023- To date
+                          Technical Univeristy of Mombasa, 2022 - 2025
                         </p>
                       </div>
                     </div>
