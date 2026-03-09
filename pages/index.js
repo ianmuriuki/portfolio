@@ -525,7 +525,7 @@ export default function Index() {
                     Dev Portfolio Profile
                   </h5>
                   <a
-                    href="https://github.com/ianmuriuki/portfolio.git"
+                    href="https://github.com/ianmuriuki/andan-store.git"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -538,8 +538,10 @@ export default function Index() {
                     </div>
                   </a>
                   <p className="text-center text-white text-sm mt-4">
-                    A responsive developer profile built with React and
-                    TailwindCSS to showcase your dev journey.
+                    Andan Stores is a full stack grocery e commerce platform built using the MERN stack. 
+                          The system replicates real world online supermarket operations including product 
+                          browsing, cart management, secure authentication, order processing, 
+                            and administrative inventory control.
                   </p>
                 </div>
 
