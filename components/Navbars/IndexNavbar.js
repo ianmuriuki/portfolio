@@ -1,22 +1,20 @@
 import React from "react";
 import Link from "next/link";
-// components
-// import IndexDropdown from "components/Dropdowns/IndexDropdown.js";
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white shadow">
+      <nav className="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white shadow-sm border-b border-blueGray-100">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link href="/">
-              <span className="text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase">
+              <span className="text-blueGray-800 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase tracking-wide hover:text-blueGray-600 transition-colors duration-200 cursor-pointer">
                 My Portfolio
               </span>
             </Link>
             <button
-              className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded-lg bg-transparent block lg:hidden outline-none focus:outline-none hover:bg-blueGray-100 transition-colors duration-200"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
@@ -31,56 +29,44 @@ export default function Navbar(props) {
             id="example-navbar-warning"
           >
             <ul className="flex flex-col lg:flex-row list-none mr-auto">
-              <li className="flex items-center">
-               
-              </li>
+              <li className="flex items-center"></li>
             </ul>
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-           
               <li className="flex items-center">
                 <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://www.linkedin.com/ianmuriuki-"
+                  className="hover:text-blueGray-900 hover:-translate-y-0.5 text-blueGray-600 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold transition-all duration-200"
+                  href="https://www.linkedin.com/in/ian-muriuki-2387992b9"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="text-blueGray-400 fab fa-linkedin text-lg leading-lg " />
+                  <i className="text-blueGray-400 fab fa-linkedin text-lg leading-lg" />
                   <span className="lg:hidden inline-block ml-2">linkedin</span>
                 </a>
               </li>
 
               <li className="flex items-center">
                 <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-blueGray-900 hover:-translate-y-0.5 text-blueGray-600 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold transition-all duration-200"
                   href="https://twitter.com/@inc_codes"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="text-blueGray-400 fab fa-twitter text-lg leading-lg " />
+                  <i className="text-blueGray-400 fab fa-twitter text-lg leading-lg" />
                   <span className="lg:hidden inline-block ml-2">Twitter</span>
                 </a>
               </li>
 
               <li className="flex items-center">
                 <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-blueGray-900 hover:-translate-y-0.5 text-blueGray-600 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold transition-all duration-200"
                   href="https://github.com/ianmuriuki"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i className="text-blueGray-400 fab fa-github text-lg leading-lg " />
+                  <i className="text-blueGray-400 fab fa-github text-lg leading-lg" />
                   <span className="lg:hidden inline-block ml-2">Github</span>
                 </a>
               </li>
-
-              {/* <li className="flex items-center">
-                <button
-                  className="bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
-                  type="button"
-                >
-                  <i className="fas fa-arrow-alt-circle-down"></i> Download
-                </button>
-              </li> */}
             </ul>
           </div>
         </div>

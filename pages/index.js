@@ -13,24 +13,21 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-blueGray-700">
-                HELLO ~  Welcome to my Portfolio
+                HELLO, I'M MURIUKI IAN
               </h2>
               <p className="mt-4 text-xl leading-relaxed text-blueGray-500">
-                I'm Iann, a passionate developer and cybersecurity enthuasist,
-                dedicated to building secure, innovative solutions that make a
-                real impact. -Yeah a tech lover who codes, hacks(ethically), and
-                build cool stuff that solves real-world problems.
+                I write code, build systems, experiment with ideas, and occasionally go way too deep down technical rabbit holes.
+                I'm a software engineer focused on backend development, APIs, and building things that solve actual problems.
+                Still learning. Still shipping. Still breaking production in increasingly creative ways
               </p>
               <div className="mt-12">
-                <a
-                  href="https://www.linkedin.com/in/ian-muriuki-2387992b9"
+                <a href="https://www.linkedin.com/in/ian-muriuki-2387992b9"
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   View my linkedin
                 </a>
-                <a
-                  href="https://github.com/ianmuriuki"
+                <a href="https://github.com/ianmuriuki"
                   className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                   target="_blank"
                 >
@@ -100,13 +97,12 @@ export default function Index() {
                   </svg>
 
                   <h4 className="text-xl font-bold text-blueGray">
-                    0xIann ~ Your Go-To Developer
+                     A little about me
                   </h4>
                   <p className="text-md font-light mt-2 text-blueGray">
                     I'm the kind of dev who loves clean APIs, secure systems,
-                    and midnight debugging. Backend is my playground, servers
-                    are my canvas, and I occasionally flirt with AI just to keep
-                    things spicy.
+                    and midnight debugging. Backend development is my playground, 
+                    and I thrive on turning complex problems into elegant solutions.
                   </p>
 
                 </blockquote>
@@ -201,10 +197,9 @@ export default function Index() {
                 </div>
                 <h3 className="text-3xl font-semibold">Education</h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  I'm currently pursuing a degree in Information Technology at
-                  Technical University of Mombasa, where I'm actively involved
-                  in tech communities and leadership roles that complement my
-                  academic journey.
+                  I studied Information Technology at Technical University of
+                  Mombasa, 2023 to February 2026, alongside leadership roles
+                  in tech communities on campus.
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">
@@ -216,10 +211,10 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          BSc in Information Technology
+                          Information Technology
                         </h4>
                         <p className="text-blueGray-400 text-sm">
-                          Technical Univeristy of Mombasa, 2023- To date
+                          Technical University of Mombasa, 2023 to Feb 2026
                         </p>
                       </div>
                     </div>
@@ -253,42 +248,25 @@ export default function Index() {
                   Experience & Leadership
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  While I’m still growing professionally, I’ve held various
-                  impactful roles in student leadership and tech communities,
-                  and I’ve recently completed a practical attachment at
-                  Swahilipot Hub.
+                  During school I took on leadership roles in tech
+                  communities including a practical attachment at Swahilipot
+                  Hub. Since then I've moved into contract development and
+                  technical leadership work with clients.
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                          <i className="fas fa-code"></i>
+                          <i className="fas fa-briefcase"></i>
                         </span>
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Webmaster - IEEE Student Branch
+                          Attachment - Swahilipot Hub
                         </h4>
                         <p className="text-blueGray-400 text-sm">
-                          Technical University of Mombasa, 2024–Present
-                        </p>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="py-2">
-                    <div className="flex items-center">
-                      <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                          <i className="fas fa-users-cog"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <h4 className="text-blueGray-500">
-                          Software Lead - GDG TUM
-                        </h4>
-                        <p className="text-blueGray-400 text-sm">
-                          Google Developer Group, 2024–Present
+                          Mombasa, Jan to Apr 2025
                         </p>
                       </div>
                     </div>
@@ -305,7 +283,7 @@ export default function Index() {
                           Tech Lead - TUM Developers Club
                         </h4>
                         <p className="text-blueGray-400 text-sm">
-                          Technical University of Mombasa, 2023–Present
+                          Technical University of Mombasa, 2023 to Present
                         </p>
                       </div>
                     </div>
@@ -314,15 +292,52 @@ export default function Index() {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                          <i className="fas fa-briefcase"></i>
+                          <i className="fas fa-users-cog"></i>
                         </span>
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Attachment - Swahilipot Hub
+                          Software Lead - GDG TUM
                         </h4>
                         <p className="text-blueGray-400 text-sm">
-                          Mombasa, Jan – Apr 2025
+                          Google Developer Group, 2024 to 2025
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                          <i className="fas fa-heartbeat"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          Technology Lead, AfyaMeet
+                        </h4>
+                        <p className="text-blueGray-400 text-sm">
+                          Telemedicine Platform, 2025 to Present
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                          <i className="fas fa-code"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          Freelance / Contract Developer
+                        </h4>
+                        <p className="text-blueGray-400 text-sm">
+                          Client Projects, 2025 to Present
+                        </p>
+                        <p className="text-blueGray-400 text-sm">
+                          E SOMA, Nexlynk, PosFlow
                         </p>
                       </div>
                     </div>
@@ -351,8 +366,7 @@ export default function Index() {
               <div className="justify-center flex flex-wrap relative">
                 {/* Python */}
                 <div className="my-4 w-full lg:w-6/12 px-4">
-                  <a
-                    href="https://www.python.org/doc/"
+                  <a href="https://www.python.org/doc/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -369,8 +383,7 @@ export default function Index() {
                   </a>
 
                   {/* TypeScript */}
-                  <a
-                    href="https://www.typescriptlang.org/docs/"
+                  <a href="https://www.typescriptlang.org/docs/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -389,8 +402,7 @@ export default function Index() {
 
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
                   {/* Rust */}
-                  <a
-                    href="https://doc.rust-lang.org/"
+                  <a href="https://doc.rust-lang.org/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -407,8 +419,7 @@ export default function Index() {
                   </a>
 
                   {/* JavaScript */}
-                  <a
-                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -435,19 +446,19 @@ export default function Index() {
                 My Tech Stack
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                These are the core technologies I use to build full-stack,
-                secure, and performant applications. I’m constantly learning and
+                These are the core technologies I use to build Softwares, APIs, and systems. I focus on creating scalable,
+                secure, and performant applications. I'm constantly learning and
                 expanding my toolkit.
               </p>
               <div className="block pb-6">
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white mr-2 mt-2">
-                  HTML
+                  MongoDB
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white mr-2 mt-2">
-                  CSS
+                  Docker and Kubernetes
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white mr-2 mt-2">
-                  React
+                  React Native
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white mr-2 mt-2">
                   Next.js
@@ -456,17 +467,19 @@ export default function Index() {
                   Node.js
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white mr-2 mt-2">
-                  TailwindCSS
+                  Express.js
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white mr-2 mt-2">
-                  MongoDB
+                  PostgreSQL
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white mr-2 mt-2">
-                  MySQL
+                  Supabase
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white mr-2 mt-2">
+                  Python
                 </span>
               </div>
-              <a
-                href="https://github.com/ianmuriuki"
+              <a href="https://github.com/ianmuriuki"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
@@ -481,9 +494,7 @@ export default function Index() {
           <div className="w-full md:w-6/12 px-12 md:px-4">
             <h2 className="font-semibold text-4xl">My Featured Projects</h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-              A showcase of some of my best work — blending backend systems,
-              cybersecurity, and modern UI/UX. Dive into what I’ve been
-              building.
+              A showcase of some of my work, blending backend systems and design and delivering real-world solutions. These projects highlight my skills in building scalable, secure, and user-friendly applications.
             </p>
           </div>
         </div>
@@ -496,11 +507,10 @@ export default function Index() {
               <div className="flex flex-wrap">
                 {/* Project 1 */}
                 <div className="w-full lg:w-4/12 px-4 mb-10">
-                  <h5 className="text-xl font-semibold pb-4 text-center text-gray-200">
-                    ICP Smart Contract
+                  <h5 className="text-xl font-semibold pb-4 text-center text-blueGray-700">
+                    AfyaMeet
                   </h5>
-                  <a
-                    href="https://github.com/ianmuriuki/crop_yield_system"
+                  <a href="https://afyameet.com"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -508,24 +518,21 @@ export default function Index() {
                       <img
                         alt="Login Project"
                         className="align-middle border-none max-w-full h-64 object-cover rounded-lg"
-                        src="/img/web3.jpg"
+                        src="/img/afyameet.png"
                       />
                     </div>
                   </a>
                   <p className="text-center text-white text-sm mt-4">
-                    A decentralized platform designed to help farmers increase
-                    their crop yield by providing insights, monitoring tools,
-                    and educational resources.
+                   A live telemedicine platform connecting patients and doctors, where I served as Technology Lead and Backend designing.
                   </p>
                 </div>
 
                 {/* Project 2 */}
                 <div className="w-full lg:w-4/12 px-4 mb-10">
-                  <h5 className="text-xl font-semibold pb-4 text-center text-white">
-                    Dev Portfolio Profile
+                  <h5 className="text-xl font-semibold pb-4 text-center text-blueGray-700">
+                    Telvane Technologies
                   </h5>
-                  <a
-                    href="https://github.com/ianmuriuki/portfolio.git"
+                  <a href="https://telvane.co.ke"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -533,23 +540,21 @@ export default function Index() {
                       <img
                         alt="Profile Project"
                         className="align-middle border-none max-w-full h-64 object-cover rounded-lg"
-                        src="/img/portfolio.jpg"
+                        src="/img/telvane.png"
                       />
                     </div>
                   </a>
                   <p className="text-center text-white text-sm mt-4">
-                    A responsive developer profile built with React and
-                    TailwindCSS to showcase your dev journey.
+                  A developer brand and client-facing site built with React, Supabase, and Cloudflare Workers, showcasing full-stack project delivery.
                   </p>
                 </div>
 
                 {/* Project 3 */}
                 <div className="w-full lg:w-4/12 px-4 mb-10">
-                  <h5 className="text-xl font-semibold pb-4 text-center text-white">
-                    Decentralized AI Assistant
+                  <h5 className="text-xl font-semibold pb-4 text-center text-blueGray-700">
+                    Nexlynk Engineers
                   </h5>
-                  <a
-                    href="https://github.com/ianmuriuki/personal-DeAi"
+                  <a href="https://nexlynkengineers.co.ke"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -557,13 +562,12 @@ export default function Index() {
                       <img
                         alt="Landing Project"
                         className="align-middle border-none max-w-full h-64 object-cover rounded-lg"
-                        src="/img/deaii.jpg"
+                        src="/img/nexlynk.png"
                       />
                     </div>
                   </a>
                   <p className="text-center text-white text-sm mt-4">
-                    A decentralized AI assistant that leverages blockchain
-                    technology to provide secure and private interactions.
+                   An internship management platform I built under contract for Nexlynk Engineers, handling applications, verification, and communication end to end.
                   </p>
                 </div>
               </div>
@@ -577,11 +581,11 @@ export default function Index() {
           <div className="flex flex-wrap text-center justify-center">
             <div className="w-full lg:w-6/12 px-4">
               <h2 className="text-4xl font-semibold text-white">
-                Let’s Build Together
+                Let's Build Together
               </h2>
               <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
                 Looking for passionate minds to collaborate on open source,
-                Web3, or startup ideas. Drop a message and let's make something
+                or startup ideas. Drop a message and let's make something
                 impactful together.
               </p>
             </div>

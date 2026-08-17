@@ -26,14 +26,16 @@ export default function Footer() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap text-center lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
-              <h4 className="text-3xl font-semibold">Let's keep in touch!</h4>
+              <h4 className="text-3xl font-semibold text-blueGray-800">
+                Let's keep in touch!
+              </h4>
               <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
                 Find me on any of these platforms, I will respond within 24 hours.
               </h5>
-              <div className="mt-6 lg:mb-0 mb-6 flex justify-center lg:justify-start">
+              <div className="mt-6 lg:mb-0 mb-6 flex justify-center lg:justify-start gap-4">
                 <a href="https://twitter.com/@inc_codes" target="_blank" rel="noopener noreferrer">
                   <button
-                    className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    className="bg-white text-lightBlue-400 shadow-md hover:shadow-xl hover:scale-110 font-normal h-12 w-12 flex items-center justify-center rounded-full text-lg outline-none focus:outline-none transition-all duration-200"
                     type="button"
                   >
                     <i className="fab fa-twitter"></i>
@@ -41,7 +43,7 @@ export default function Footer() {
                 </a>
                 <a href="https://discord.com/users/ian_muriuki" target="_blank" rel="noopener noreferrer">
                   <button
-                    className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    className="bg-white text-lightBlue-600 shadow-md hover:shadow-xl hover:scale-110 font-normal h-12 w-12 flex items-center justify-center rounded-full text-lg outline-none focus:outline-none transition-all duration-200"
                     type="button"
                   >
                     <i className="fab fa-discord"></i>
@@ -49,7 +51,7 @@ export default function Footer() {
                 </a>
                 <a href="https://reddit.com/user/codes_inc" target="_blank" rel="noopener noreferrer">
                   <button
-                    className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    className="bg-white text-blueGray-800 shadow-md hover:shadow-xl hover:scale-110 font-normal h-12 w-12 flex items-center justify-center rounded-full text-lg outline-none focus:outline-none transition-all duration-200"
                     type="button"
                   >
                     <i className="fab fa-reddit"></i>
@@ -57,7 +59,7 @@ export default function Footer() {
                 </a>
                 <a href="https://linkedin.com/in/ian-muriuki-2387992b9" target="_blank" rel="noopener noreferrer">
                   <button
-                    className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    className="bg-white text-pink-400 shadow-md hover:shadow-xl hover:scale-110 font-normal h-12 w-12 flex items-center justify-center rounded-full text-lg outline-none focus:outline-none transition-all duration-200"
                     type="button"
                   >
                     <i className="fab fa-linkedin"></i>
@@ -65,7 +67,7 @@ export default function Footer() {
                 </a>
                 <a href="https://github.com/ianmuriuki" target="_blank" rel="noopener noreferrer">
                   <button
-                    className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    className="bg-white text-blueGray-800 shadow-md hover:shadow-xl hover:scale-110 font-normal h-12 w-12 flex items-center justify-center rounded-full text-lg outline-none focus:outline-none transition-all duration-200"
                     type="button"
                   >
                     <i className="fab fa-github"></i>
@@ -82,7 +84,7 @@ export default function Footer() {
                   <ul className="list-unstyled">
                     <li>
                       <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm transition-colors duration-200"
                         href="/"
                       >
                         About Me
@@ -90,7 +92,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm transition-colors duration-200"
                         href="https://hashnode.com/@iann"
                       >
                         Blog
@@ -98,7 +100,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm transition-colors duration-200"
                         href="https://www.github.com/ianmuriuki"
                       >
                         Github
@@ -112,25 +114,12 @@ export default function Footer() {
                   </span>
                   <ul className="list-unstyled">
                     <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/"
-                      >
-                        Terms & Conditions
-                      </a>
+                    
                     </li>
                     <li>
                       <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/"
-                      >
-                        Privacy Policy
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="+254795953801"
+                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm transition-colors duration-200"
+                        href="tel:+254795953801"
                       >
                         Contacts
                       </a>
@@ -144,12 +133,12 @@ export default function Footer() {
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
               <div className="text-sm text-blueGray-500 font-semibold py-1">
-                Copyright © {new Date().getFullYear()} Iann by{" "}
+                Copyright © {new Date().getFullYear()} iann by{" "}
                 <a
                   href="https://www.github.com/ianmuriuki"
-                  className="text-blueGray-500 hover:text-blueGray-800"
+                  className="text-blueGray-500 hover:text-blueGray-800 transition-colors duration-200"
                 >
-                  IanMuriuki
+                  ianmuriuki
                 </a>
                 .
               </div>

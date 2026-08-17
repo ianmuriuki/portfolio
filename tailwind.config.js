@@ -14,6 +14,10 @@ module.exports = {
       ...colors,
     },
     extend: {
+      fontFamily: {
+        serif: ["Lora", "Georgia", "serif"],
+        garamond: ["Cormorant Garamond", "serif"],
+      },
       minHeight: {
         "screen-75": "75vh",
       },

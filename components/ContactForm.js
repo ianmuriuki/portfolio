@@ -1,4 +1,3 @@
-// components/ContactForm.js
 import { useState } from "react";
 
 export default function ContactForm() {
@@ -43,13 +42,15 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="flex-auto p-5 lg:p-10">
-      <h4 className="text-2xl font-semibold">Want us to Collaborate?</h4>
+      <h4 className="text-2xl font-semibold text-blueGray-800">
+        Want us to Collaborate?
+      </h4>
       <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
-        Fill this form and I’ll respond within 24 hours.
+        Fill this form and I'll respond within 24 hours.
       </p>
 
-      <div className="relative w-full mb-3 mt-8">
-        <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2">
+      <div className="relative w-full mb-4 mt-8">
+        <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2 tracking-wide">
           Full Name
         </label>
         <input
@@ -58,13 +59,13 @@ export default function ContactForm() {
           value={formData.name}
           onChange={handleChange}
           required
-          className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+          className="border border-blueGray-200 px-4 py-3 placeholder-blueGray-300 text-blueGray-700 bg-white rounded-lg text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-blueGray-400 focus:border-transparent w-full transition-all duration-200"
           placeholder="Full Name"
         />
       </div>
 
-      <div className="relative w-full mb-3">
-        <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2">
+      <div className="relative w-full mb-4">
+        <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2 tracking-wide">
           Email
         </label>
         <input
@@ -73,13 +74,13 @@ export default function ContactForm() {
           value={formData.email}
           onChange={handleChange}
           required
-          className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+          className="border border-blueGray-200 px-4 py-3 placeholder-blueGray-300 text-blueGray-700 bg-white rounded-lg text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-blueGray-400 focus:border-transparent w-full transition-all duration-200"
           placeholder="Email"
         />
       </div>
 
-      <div className="relative w-full mb-3">
-        <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2">
+      <div className="relative w-full mb-4">
+        <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2 tracking-wide">
           Message
         </label>
         <textarea
@@ -88,20 +89,22 @@ export default function ContactForm() {
           value={formData.message}
           onChange={handleChange}
           required
-          className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+          className="border border-blueGray-200 px-4 py-3 placeholder-blueGray-300 text-blueGray-700 bg-white rounded-lg text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-blueGray-400 focus:border-transparent w-full transition-all duration-200"
           placeholder="Type a message..."
         />
       </div>
 
-      <div className="text-center mt-6">
+      <div className="text-center mt-10 mb-2">
         <button
           type="submit"
           disabled={loading}
-          className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+          className="inline-flex items-center justify-center bg-blueGray-800 hover:bg-blueGray-900 disabled:opacity-60 disabled:cursor-not-allowed text-white text-sm font-semibold px-10 py-3.5 rounded-full transition-colors duration-200"
         >
           {loading ? "Sending..." : "Send Message"}
         </button>
-        {status && <p className="mt-4 text-sm text-blueGray-500">{status}</p>}
+        {status && (
+          <p className="mt-4 text-sm text-blueGray-500">{status}</p>
+        )}
       </div>
     </form>
   );
