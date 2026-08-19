@@ -27,4 +27,6 @@ Or a bug.
 
 Probably both. 😂
 
-**Now go check the actual portfolio. 👀**
+**Now go check the actual portfolio. https://ianmuriuki.vercel.app/ 👀**
+
+**oh btw my company https://telvane.co.ke/ you can also take a look too**
